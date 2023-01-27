@@ -1,7 +1,7 @@
 from random import choice
 import random
 
-name = input("Enter your name : ")
+name = input("enter  your  good name : ")
 
 class Question:
      def __init__(self,prompt,answer):
@@ -34,5 +34,5 @@ def run_quiz(questions):
         answer= input(question.prompt)
         if answer == question.answer:
              score += 1
-    print(f"Hey!",name, "you got" ,score, "out of", len(questions))
+    print(f"Hey!",name, "you secured" ,score, "score out of", len(questions))
 run_quiz(questions) 
